@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyData : ScriptableObject
 {
-    public string name;
+    public string enemyName;
     public float maxHealth;
     public float maxPower;
     public int enemyClass;

@@ -6,6 +6,6 @@ using UnityEngine;
 [CreateAssetMenuAttribute(fileName = "Troll", menuName = "ScriptableObjects/Troll", order = 0)]
 public class TrollData : EnemyData
 {
-    public EnemyType enemyRace;
+    public EnemyType enemyRace = EnemyType.Troll;
     public WeaponType weaponType;
 }
